@@ -36,6 +36,8 @@ let week = prompt('Введите значение от 1-7');
     }
     else if (week == '7') {
         alert('Воскресенье');
+    } else {
+        alert('Такое значение вводить нельзя!')
     }
 
  */
@@ -61,5 +63,8 @@ switch (week) {
         break;
     case '7':
         alert('Воскресенье');
+        break;
+    default:
+        alert('Такое значение вводить неельзя!');
         break;
 }
